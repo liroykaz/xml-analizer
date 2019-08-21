@@ -1,0 +1,19 @@
+2019-07-30 14:53:28 INFO  XmlAnalizer:60 - Input params: File name = test.xml | Numbers = [5]
+2019-07-30 14:53:28 INFO  XmlAnalizer:133 - Generated Node query '//item[not(contains(@exclude,'false')) and (@num = '5')]'
+2019-07-30 14:53:28 INFO  XmlAnalizer:101 - XML file is open
+2019-07-30 14:53:28 INFO  XmlAnalizer:111 - Item # 5 | value = 65.0 | was added
+2019-07-30 14:53:28 INFO  XmlAnalizer:65 - Sum of items = 65.0 (rub)
+2019-07-30 14:53:29 INFO  JsonConverter:31 - Sum of items = 0.93 (EUR) | EUR rate = 70.6417
+2019-07-30 14:56:06 INFO  XmlAnalizer:60 - Input params: File name = test.xml | Numbers = [5]
+2019-07-30 14:56:06 ERROR XmlAnalizer:115 - Error in converting file process test.xml
+2019-07-30 14:56:06 INFO  XmlAnalizer:65 - Sum of items = 0.0 (rub)
+2019-07-30 14:58:34 INFO  XmlAnalizer:60 - Input params: File name = test.xml | Numbers = [5]
+2019-07-30 15:00:51 ERROR XmlAnalizer:115 - Error in converting file process test.xml
+2019-07-30 15:01:15 INFO  XmlAnalizer:60 - Input params: File name = test.xml | Numbers = [5]
+2019-07-30 15:02:06 ERROR XmlAnalizer:115 - Error in converting file process test.xml
+2019-07-30 15:02:28 INFO  XmlAnalizer:60 - Input params: File name = test.xml | Numbers = [5]
+2019-07-30 15:02:28 INFO  XmlAnalizer:133 - Generated Node query '//item[not(contains(@exclude,'false')) and (@num = '5')]'
+2019-07-30 15:02:28 INFO  XmlAnalizer:101 - XML file is open
+2019-07-30 15:02:28 INFO  XmlAnalizer:111 - Item # 5 | value = 65.0 | was added
+2019-07-30 15:02:28 INFO  XmlAnalizer:65 - Sum of items = 65.0 (rub)
+2019-07-30 15:02:29 INFO  JsonConverter:31 - Sum of items = 0.93 (EUR) | EUR rate = 70.598
